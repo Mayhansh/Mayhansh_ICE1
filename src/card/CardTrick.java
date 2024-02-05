@@ -52,8 +52,8 @@ public class CardTrick {
         for (Card hand1 : magicHand) {
             
             System.out.println(hand1);
-            if (userCard.getSuit()==hand1.getSuit()){
-                if (userCard.getValue()==hand1.getValue()){
+            if (magicCard.getSuit()==hand1.getSuit()){
+                if (magicCard.getValue()==hand1.getValue()){
                     
                 printInfo();
                 break;
